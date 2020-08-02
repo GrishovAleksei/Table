@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+tr:nth-child(even) {
+  background-color: #999;
+}
+
+tr:hover {
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  color: white;
+}
+
